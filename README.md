@@ -3,6 +3,12 @@ Bulk update correlation searches
 
 Requirement: Update multiple correlation searches together
 
+Methods:
+1. Search Splunk -> output file -> batch script
+2. Search Splunk -> output file -> python SDK
+
+
+####################################################
 Example 1: 
 1. Create 5 test searches "TEST1-search1", "TEST2-search2", etc.
 2. Create a lookup "SearchToMITRELookup" with a row for each search, and MITRE ATT&CK technique multi-value field for each
